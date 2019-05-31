@@ -1,8 +1,14 @@
 <h1>102366 BBIT 3A</h1>
+
 <?php
-$shop = array( array("company"=>"archeNland Limited", "Amounts"=>"100,-1200,300,-700,678" , "Debits"=>1700, "Balance"=>1278),
-               array("company"=>"Narnia Gmb", "Amounts"=>"530,-23,670,3,-1299" , "Debits"=>"1299,3", "Balance"=>1203),
-               array("company"=>"Loneislands Pty", "Amounts"=>"-7568,39,49,-37,3000,98" , "Debits"=>"37,7568", "Balance"=>3186) 
+$balance1 = 100+200+300+678;
+$balance2 = 530+670+3;
+$balance3 = 3000+39+49+98;
+
+
+$shop = array( array("company"=>"archeNland Limited", "Amounts"=>"100,-1,200,300,-700,678" , "Debits"=>1700, "Balance"=>$balance1),
+               array("company"=>"Narnia Gmb", "Amounts"=>"530,-23,670,3,-1299" , "Debits"=>"1299,3", "Balance"=>$balance2),
+               array("company"=>"Loneislands Pty", "Amounts"=>"-7568,39,49,-37,3000,98" , "Debits"=>"37,7568", "Balance"=>$balance3) 
              ); 
 ?>
 
